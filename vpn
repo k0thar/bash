@@ -1,0 +1,132 @@
+#!/bin/bash
+
+
+
+
+
+echo "please enter number of the server you want (1-18):"
+read num
+
+#switch=s${num}
+
+#server=""
+
+case $num in
+1)
+	server="mci1.btaks.com"
+	;;
+
+2)
+	server="mci.btaks.com"
+	;;
+
+3)
+	server="mci.bcdnpro.com"
+	;;
+4)
+	server="s22.biovdns.com"
+	;;
+5)
+	server="s23.biovdns.com"
+	;;
+6)
+	server="s24.biovdns.com"
+	;;
+7)
+	server="s25.biovdns.com"
+	;;
+8)
+	server="s26.biovdns.com" 
+	;;
+9)
+	server="s36.biovdns.com"
+	;;
+10)
+	server="s27.biovdns.com"
+	;;
+11)
+	server="s28.biovdns.com"
+	;;
+12)
+	server="s29.biovdns.com"
+	;;
+13)
+	server="s30.biovdns.com"
+	;;
+14)
+	server="s31.biovdns.com"
+	;;
+15)
+	server="s32.biovdns.com"
+	;;
+16)
+	server="s33.biovdns.com"
+	;;
+17)
+	server="s34.biovdns.com"
+	;;
+18)
+	server="s35.biovdns.com"
+	;;
+19)
+	server="s54.biovdns.com"
+	;;
+20)
+	server="s55.biovdns.com"
+	;;
+21)
+	server="s56.biovdns.com"
+	;;
+22)
+	server="s57.biovdns.com"
+	;;
+23)
+	server="s58.biovdns.com"
+	;;
+24)
+	server="s59.biovdns.com"
+	;;
+24)
+	server="s59.biovdns.com"
+	;;
+24)
+	server="s37.biovdns.com"
+	;;
+25)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;24)
+	server="s59.biovdns.com"
+	;;
+	
+esac
+
+
+
+sudo openconnect $server  --no-dtls
+
